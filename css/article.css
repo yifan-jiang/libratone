@@ -1,0 +1,174 @@
+.main{
+width: 94%;
+height: auto;
+padding-bottom: 50px;
+max-width: 1240px;
+margin: 0 auto;
+}
+
+h3{
+	margin-top: 0;
+}
+h4{
+	margin:20px 0;
+}
+.main3 h1{
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+.main3 h3{
+	margin:20px 0;
+}
+div.col-xs-12{
+	padding: 0
+}
+.main1 .lastdiv{
+	margin-top: 50px;
+}
+.main1,.main2,.main3,{
+	display: none;
+}
+.year{
+	width:100%;
+	text-align: center;
+	font-size: 16px;
+}
+.no1 .word{
+	height:100px;
+	background:url("../themes/default/images/xian1.jpg") repeat-y center; 
+}
+
+.main .row{
+	height:100%;
+}
+ .word .right{
+/*	padding:0 80px; */
+	background:url("../themes/default/images/dian.png") no-repeat top left;
+	height:100%;
+	padding:0 90px; 
+}
+.no2,.no3{
+	height:500px;
+	background:url("../themes/default/images/xian1.jpg") repeat-y center; 
+}
+.no4,.no5{
+	height:200px;
+	background:url("../themes/default/images/xian1.jpg") repeat-y center;
+}
+.word .eachword{
+	height:100px;
+}
+ .eachword .left{
+	padding:0 90px; 
+	background:url("../themes/default/images/dian.png") no-repeat top right;
+	height:100%;
+}
+.main4 div.lianxius{
+	padding:50px;
+	background-color: #fff;
+	text-align:center;
+	font-size: 15px;
+	background: #ffffff url("../themes/default/images/contact.jpg") no-repeat right bottom;
+}
+.main4 div.lianxius .leftdiv{
+	border-right: 2px solid #EAEAEA;
+}
+.leftdiv .bold{
+	font-weight: bold;
+}
+.main4 div.lianxius a,.main4 div.lianxius span{
+	display: inline-block;
+	line-height: 30px;
+}
+.main5 span {
+	font-size: 18px;
+	display: inline-block;
+	line-height: 25px;
+}
+.main5 h2{
+	font-weight: bold;
+}
+.main5 h3{
+	margin-top:60px;
+	margin-bottom: 30px;
+}
+.main6 h1{
+	font-size: 48px;
+	margin-bottom: 50px;
+}
+
+.main6 div.col-xs-8{
+	padding: 0;
+	padding-bottom: 10px;
+}
+
+@media  screen  and (max-width:770px) {
+	.main2 h3{
+		font-size: 18px;
+	}
+	.main h3{
+		font-size: 18px;
+	}
+	.main h4{
+		font-size:15px;
+	}
+	.main4 div.lianxius{
+		height:800px;
+	background: #ffffff url("../themes/default/images/contact.jpg") no-repeat bottom center;
+	}
+	.main6 h1{
+		font-size: 25px;
+	}
+}
+
+@media  screen  and (max-width:546px) {
+	.main2 .word .left,.main2 .word .right{
+		width:100%;
+		padding:0;
+		text-align:left;
+		background:none;
+	}
+	.no1 .word,.no2,.no3,.no4,.no5{
+		background:none;
+	}
+	.main3 h3{
+		font-size: 14px;
+	}
+	.main3 h4{
+		font-size:10px;
+	}
+	.main3 div.col-xs-12{
+		width:100%;
+	}
+	.main5 span{
+		font-size: 15px;
+	}
+}
+@media  screen  and (max-width:360px){
+	.main5 span{
+		font-size: 12px;
+	}
+	.main h2,.main h4{
+		font-size: 18px;
+	}
+}
+@media only screen and (max-width: 1280px){
+	.main4 div.lianxius{
+		background-size:535px 326px;;
+	}
+}
+@media  screen  and (max-width:546px) {
+	.main4 div.lianxius{
+		background-size:300px 300px;;
+	}
+}
+
+@media  screen  and (min-width:1280px) {
+	.main2 .word .left,.main2 .word .right{
+
+		padding: 0 120px;
+	}
+
+
+}
+

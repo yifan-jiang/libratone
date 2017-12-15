@@ -1,0 +1,12 @@
+	 window.onscroll=function(){
+    if(document.documentElement.scrollTop>=50){
+			console.log(1111111111111)
+      toTop.style.display="block";}
+    else{
+			console.log(32132131213)
+      toTop.style.display="";}
+  }
+  $("#toTop").click(()=>{
+  	console.log(666)
+  	$('body,html').animate({scrollTop:0},100);
+  })

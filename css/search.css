@@ -1,0 +1,94 @@
+.main{
+width: 94%;
+height: auto;
+padding-bottom: 50px;
+max-width: 1240px;
+min-width: 320px;
+margin: 0 auto;
+}
+.show{
+	background: #fff;
+	padding:50px;
+	border:1px solid #CCCCCC;
+	margin-top: 50px;
+}
+#searchinput{
+	width:100%;
+	height:35px;
+	line-height: 35px;
+	border-radius: 20px;
+	border:none;
+	outline:none;
+	font-size:18px;
+	padding: 15px 35px;
+	color:#fff;
+	background:#306a7f;
+}
+#searchbutton{
+	width: 44px;
+    height: 44px;
+    float: right;
+    cursor: pointer;
+    background: url("../themes/default/images/jing_03.png") no-repeat center center;
+    border: none;
+    position: relative;
+    top: -39px;
+}
+.result li{
+font-size: 20px;
+margin-right:20px;
+}
+a{
+	color:#000;
+}
+
+
+.ina{
+	position: absolute;
+	top: 40%;
+    left: 40%;
+	opacity: 0;
+	transition: .5s linear;
+}
+.block:hover .ina{
+	opacity: 1;
+}
+.block{
+	position: relative;
+	padding: 5px;
+	display: inline-block;
+}
+.newsdiv span,.elsediv span{
+	font-size: 18px;
+	line-height: 25px;
+}
+.newsdiv a.lookmore,.elsediv a.lookmore{
+	float: right;
+	font-size: 18px;
+	line-height: 30px;
+	display: inline-block;
+	background: #306A7F;
+	color:#fff;
+	width:120px;
+	text-align:center;
+	border-radius: 20px;
+}
+.newsdiv div.col-xs-12,.elsediv .col-xs-12{
+	margin:10px 0 ;
+	padding:15px;
+	border-bottom: 1px solid #F0F0F0;
+}
+.moredetail{
+	font-size: 16px;
+	color:#666666;
+}
+video{
+	width:400px;
+	height:400px;
+}
+
+@media  screen  and (max-width:580px) {
+	h1{
+		font-size: 20px;
+	}
+}

@@ -1,0 +1,89 @@
+.main{
+width: 94%;
+height: auto;
+padding-bottom: 50px;
+max-width: 1240px;
+min-width: 320px;
+margin: 0 auto;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:link{
+	text-decoration: none;
+}
+@media  screen  and (max-width:480px) {
+	.main span{
+		font-size:15px;
+	}
+	.main .text-right ul li  a{
+		font-size: 15px;
+	}
+}
+@media screen and (min-width: 480px) and (max-width:768px){
+	.main span{
+		font-size:15px;
+	}
+	.main .text-right ul li  a{
+		font-size: 15px;
+	}
+
+}
+@media (min-width: 768px){
+	.main span{
+		font-size:25px;
+	}
+}
+@media (min-width: 1080px){
+	.main span{
+		font-size:30px;
+	}
+}
+
+@media (min-width: 1280px){
+	.main span{
+		font-size:30px;
+	}
+}
+.main ul li{
+	line-height: 40px;
+	margin-right: 37px;
+}
+.main ul li a{
+	text-decoration: none;
+	padding-top: 15px;
+	font-size: 18px;
+}
+.main ul li:last-child{
+	display: inline-block;
+	border-radius:30%;
+	background-color:#306A7F; 
+	margin-left: 50px;
+	width: 70px;
+	text-align: center;
+}
+.main ul li:last-child a{
+	color: #fff;
+}
+.main ul.list-inline li.hide_li{
+	display: none;
+}
+.hide_div{
+	display: none;
+}
+.bblock,.cblock,.dblock{
+	display: none;
+}
+.main ul li:not(:last-child):hover a{
+	border-top: 4px solid #000;
+}
+.main ul li a.border{
+	border-top: 4px solid #000;
+}
+
+
+
+
+
+

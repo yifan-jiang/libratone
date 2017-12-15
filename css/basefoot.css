@@ -1,0 +1,46 @@
+/************页脚************/
+div.foot{
+	margin-bottom: 50px;
+}
+div.foot hr{
+	border: 1px solid #000;
+	opacity: 0.6;
+}
+div.kefu,div.weixin{
+	width: 280px;
+}
+div.kefu{
+	float: right;
+	margin-right: 20px;
+}
+div.weixin{
+	float:left;
+	margin-left: 20px;
+}
+div.kefu span.imgtext,div.weixin span.imgtext{
+	font-size: 20px;
+}
+div.foot img{
+	vertical-align: baseline;
+}
+div.foot img.erweima{
+	vertical-align: top;
+}
+div.foot div.lianxi{
+	font-size: 14px;
+}
+div.foot div.lianxi span{
+	display: inline-block;
+	line-height: 24px;
+}
+@media screen and  (max-width:710px){
+	div.foot div.col-xs-6{
+		width: 100%;
+	}
+	div.kefu,div.weixin{
+		width: 150px;
+	}
+	div.loadfoot h4{
+	font-size: 1em;
+	}
+}

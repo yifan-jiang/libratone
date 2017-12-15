@@ -1,0 +1,17 @@
+.main{
+width: 94%;
+height: auto;
+padding-bottom: 50px;
+max-width: 1240px;
+min-width: 320px;
+margin: 0 auto;
+}
+.toptitle p{
+	font-size: 15px;
+}
+.imgdiv img{
+	width:100%;
+}
+.imgdiv p{
+	font-size: 15px;
+}
